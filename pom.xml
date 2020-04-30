@@ -7,7 +7,7 @@
         <version>2.4.0</version>
     </parent>
     <artifactId>julielab-json-tools</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>JULIE Lab JSON Tools</name>
     <build>
         <plugins>
@@ -23,7 +23,6 @@
                             <mainClass>de.julielab.json.JsonPathCLI</mainClass>
                         </manifest>
                     </archive>
-                    <appendAssemblyId>false</appendAssemblyId>
                     <finalName>${artifactId}</finalName>
                 </configuration>
                 <executions>
