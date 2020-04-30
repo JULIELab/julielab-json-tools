@@ -32,6 +32,13 @@ Thus, this example reads "for each book return its title as ISBN".
 
 The single quotes are necessary to keep the shell from interpreting the dollar sign which is used to represent the
 root of the JSON tree.
+
+The output consists of two lines where the values for different fields (here: title and ISBN) are separated with a
+ comma.
+```
+Unicorns and Rainbows. An Experience Report., 1
+The Adventures of John Johnson Smith., 2
+```
  
 The JsonPath expressions are intepreted and resolved by https://github.com/json-path/JsonPath. There you can learn more
 about the exact JsonPath syntax.
